@@ -1,0 +1,752 @@
+[
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "multinomial",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Parameter",
+        "importPath": "torch.nn.parameter",
+        "description": "torch.nn.parameter",
+        "isExtraImport": true,
+        "detail": "torch.nn.parameter",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "CoinState",
+        "importPath": "src.state",
+        "description": "src.state",
+        "isExtraImport": true,
+        "detail": "src.state",
+        "documentation": {}
+    },
+    {
+        "label": "CoinState",
+        "importPath": "src.state",
+        "description": "src.state",
+        "isExtraImport": true,
+        "detail": "src.state",
+        "documentation": {}
+    },
+    {
+        "label": "CoinState",
+        "importPath": "src.state",
+        "description": "src.state",
+        "isExtraImport": true,
+        "detail": "src.state",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Optimizer",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "Adam",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "Adam",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "CoinAgent",
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "isExtraImport": true,
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinAgent",
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "isExtraImport": true,
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinAgent",
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "isExtraImport": true,
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "LinearBlock",
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "isExtraImport": true,
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinAgent",
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "isExtraImport": true,
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinAgent",
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "isExtraImport": true,
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinGame",
+        "importPath": "src.game",
+        "description": "src.game",
+        "isExtraImport": true,
+        "detail": "src.game",
+        "documentation": {}
+    },
+    {
+        "label": "CoinGame",
+        "importPath": "src.game",
+        "description": "src.game",
+        "isExtraImport": true,
+        "detail": "src.game",
+        "documentation": {}
+    },
+    {
+        "label": "CoinGame",
+        "importPath": "src.game",
+        "description": "src.game",
+        "isExtraImport": true,
+        "detail": "src.game",
+        "documentation": {}
+    },
+    {
+        "label": "CoinGame",
+        "importPath": "src.game",
+        "description": "src.game",
+        "isExtraImport": true,
+        "detail": "src.game",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "DQNTrainer",
+        "importPath": "src.training",
+        "description": "src.training",
+        "isExtraImport": true,
+        "detail": "src.training",
+        "documentation": {}
+    },
+    {
+        "label": "ReplayMemory",
+        "importPath": "src.training",
+        "description": "src.training",
+        "isExtraImport": true,
+        "detail": "src.training",
+        "documentation": {}
+    },
+    {
+        "label": "DQNTrainer",
+        "importPath": "src.training",
+        "description": "src.training",
+        "isExtraImport": true,
+        "detail": "src.training",
+        "documentation": {}
+    },
+    {
+        "label": "GameUI",
+        "importPath": "src.ui",
+        "description": "src.ui",
+        "isExtraImport": true,
+        "detail": "src.ui",
+        "documentation": {}
+    },
+    {
+        "label": "GameUI",
+        "importPath": "src.ui",
+        "description": "src.ui",
+        "isExtraImport": true,
+        "detail": "src.ui",
+        "documentation": {}
+    },
+    {
+        "label": "GameUI",
+        "importPath": "src.ui",
+        "description": "src.ui",
+        "isExtraImport": true,
+        "detail": "src.ui",
+        "documentation": {}
+    },
+    {
+        "label": "LinearBlock",
+        "kind": 6,
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "peekOfCode": "class LinearBlock(nn.Module):\n    def __init__(\n        self,\n        size_in:int,\n        size_out:int,\n        device:str = \"cuda\"\n    ) -> None:\n        super().__init__()\n        self.model = nn.Sequential(\n            nn.Linear(size_in, size_out, device = device),",
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinAgent",
+        "kind": 6,
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "peekOfCode": "class CoinAgent(nn.Module):\n    def __init__(\n        self,\n        num_coins:int,\n        num_layers:int,\n        device:str = \"cuda\"\n    ) -> None:\n        super().__init__()\n        layers = nn.Sequential(*[LinearBlock(2*num_coins+1, 2*num_coins+1, device = device) for _ in range(num_layers)])\n        output_layer = nn.Linear(2*num_coins+1, num_coins, device = device)",
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CoinGame",
+        "kind": 6,
+        "importPath": "src.game",
+        "description": "src.game",
+        "peekOfCode": "class CoinGame:\n    def __init__(\n        self,\n        num_coins:int,\n        num_flips:int,\n        standard_dev:Optional[float]=0.05\n    ) -> None:\n        self.num_coins = num_coins\n        self.num_flips = num_flips\n        self.standard_dev = standard_dev",
+        "detail": "src.game",
+        "documentation": {}
+    },
+    {
+        "label": "CoinState",
+        "kind": 6,
+        "importPath": "src.state",
+        "description": "src.state",
+        "peekOfCode": "class CoinState:\n    def __init__(\n        self,\n        num_heads:List[int],\n        num_tails:List[int],\n        num_flips:int  \n    ) -> None:\n        assert len(num_heads) == len(num_tails), \"Number of heads not equal to tails\"\n        self.num_heads = num_heads\n        self.num_tails = num_tails",
+        "detail": "src.state",
+        "documentation": {}
+    },
+    {
+        "label": "ReplayTuple",
+        "kind": 6,
+        "importPath": "src.training",
+        "description": "src.training",
+        "peekOfCode": "class ReplayTuple:\n    def __init__(\n        self,\n        state:CoinState,\n        action:int,\n        next_state:CoinState,\n        reward:float,\n        done:bool\n    ) -> None:\n        self.state = state",
+        "detail": "src.training",
+        "documentation": {}
+    },
+    {
+        "label": "ReplayMemory",
+        "kind": 6,
+        "importPath": "src.training",
+        "description": "src.training",
+        "peekOfCode": "class ReplayMemory:\n    def __init__(\n        self,\n        max_size:int\n    ) -> None:\n        self.memory = []\n        self.max_size = max_size\n    def add(\n        self,\n        state:CoinState,",
+        "detail": "src.training",
+        "documentation": {}
+    },
+    {
+        "label": "DQNTrainer",
+        "kind": 6,
+        "importPath": "src.training",
+        "description": "src.training",
+        "peekOfCode": "class DQNTrainer:\n    def __init__(\n        self,\n        max_replay_size:int,\n        batch_size:int,\n        gamma:float,\n        start_epsilon:float,\n        end_epsilon:float,\n        tau:float,\n        num_episodes:int,",
+        "detail": "src.training",
+        "documentation": {}
+    },
+    {
+        "label": "GameUI",
+        "kind": 6,
+        "importPath": "src.ui",
+        "description": "src.ui",
+        "peekOfCode": "class GameUI:\n    def __init__(\n        self,\n        game:CoinGame\n    ) -> None:\n        self.game = game\n    def run(\n        self,\n        model:Optional[nn.Module] = None\n    ) -> None:",
+        "detail": "src.ui",
+        "documentation": {}
+    },
+    {
+        "label": "check_module",
+        "kind": 2,
+        "importPath": "test.test_agent",
+        "description": "test.test_agent",
+        "peekOfCode": "def check_module(\n    model:nn.Module,\n    input_dim:int,\n    output_dim:int,\n    batch_size:int,\n    num_epoch:int,\n    loss_func:nn.Module = nn.MSELoss()\n) -> None:\n    model.train()\n    expected_single = torch.randn(output_dim)",
+        "detail": "test.test_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_linear_block_trains",
+        "kind": 2,
+        "importPath": "test.test_agent",
+        "description": "test.test_agent",
+        "peekOfCode": "def test_linear_block_trains() -> None:\n    input_dim = 3\n    model = torch.nn.Sequential(\n        LinearBlock(input_dim, input_dim),\n        torch.nn.Linear(input_dim, input_dim)\n    )\n    check_module(\n        model = model,\n        input_dim = input_dim,\n        output_dim = input_dim,",
+        "detail": "test.test_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_coin_agent_trains",
+        "kind": 2,
+        "importPath": "test.test_agent",
+        "description": "test.test_agent",
+        "peekOfCode": "def test_coin_agent_trains() -> None:\n    num_coin = 3\n    model = CoinAgent(num_coins = 3, num_layers = 2)\n    check_module(\n        model = model,\n        input_dim = 2*num_coin+1,\n        output_dim = num_coin,\n        batch_size = 100,\n        num_epoch = 5000\n    )",
+        "detail": "test.test_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_coin_agent_action",
+        "kind": 2,
+        "importPath": "test.test_agent",
+        "description": "test.test_agent",
+        "peekOfCode": "def test_coin_agent_action() -> None:\n    num_coin = 3\n    model = CoinAgent(num_coins = 3, num_layers = 2)\n    model.eval()\n    input = torch.randn(2*num_coin+1)\n    output = model(input.unsqueeze(0)).squeeze(0)\n    _, amax = output.max(0)\n    assert int(amax) == model.get_action(input), \"Not correct best action!\"",
+        "detail": "test.test_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_lengths",
+        "kind": 2,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "def test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    print(memory.memory)",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "test_expected_qs",
+        "kind": 2,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "def test_expected_qs():\n    trainer.reset()\n    next_state_batch = torch.stack([state.to_tensor() for state in states[1:]])\n    reward_tens = torch.tensor(rewards)\n    not_dones = torch.tensor([not done for done in dones])\n    preds = agent(next_state_batch)\n    expected = torch.tensor([1+0.99*max(preds[0]), 0])\n    actual = trainer._get_expected_qs(next_state_batch, reward_tens, not_dones)\n    assert max((expected-actual).abs()) < 0.001, f\"Expected q values different from expected, Expected: {expected}, Received: {actual}\"\ndef test_trainer_simple_game():",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "test_trainer_simple_game",
+        "kind": 2,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "def test_trainer_simple_game():\n    agent.train()\n    trainer.run_train_loop()\n    # trainer.run_train_loop()\n    trainer.show_loss(roll_window = 10)\n    trainer.show_value(roll_window = 10)\n    agent.eval()\n    gamma = trainer.gamma\n    std = trainer.game.standard_dev\n    state = torch.tensor([",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "agent = CoinAgent(\n    num_coins = 2, \n    num_layers = 1\n)\ngame = CoinGame(\n    num_coins = 2,\n    num_flips = 2\n)\ntrainer = DQNTrainer(\n    max_replay_size=1000,",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "game = CoinGame(\n    num_coins = 2,\n    num_flips = 2\n)\ntrainer = DQNTrainer(\n    max_replay_size=1000,\n    batch_size=500,\n    gamma=0.99,\n    start_epsilon = 0.1,\n    end_epsilon = 0.00,",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "trainer = DQNTrainer(\n    max_replay_size=1000,\n    batch_size=500,\n    gamma=0.99,\n    start_epsilon = 0.1,\n    end_epsilon = 0.00,\n    tau = 0.05,\n    num_episodes=1000,\n    optimizer=Adam(agent.parameters(), lr=1e-3),\n    agent=agent,",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "states",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "states = [\n    CoinState([0, 0], [0, 0], 2),\n    CoinState([0, 1], [0, 0], 1),\n    CoinState([0, 1], [1, 0], 0)]\nactions = [1, 0]\nrewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "actions",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "actions = [1, 0]\nrewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "rewards",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "rewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "dones",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "dones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_value(roll_window",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "trainer.show_value(roll_window = 2000)\n# %%\nfrom src.ui import GameUI\nui = GameUI(game)\nui.run(agent)\n# %%",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "ui",
+        "kind": 5,
+        "importPath": "test.test_training",
+        "description": "test.test_training",
+        "peekOfCode": "ui = GameUI(game)\nui.run(agent)\n# %%",
+        "detail": "test.test_training",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "agent = CoinAgent(\n    num_coins = 10, \n    num_layers = 8\n)\n# agent.load_state_dict(torch.load(\"model_parameters/trained_agent.pt\"))\ngame = CoinGame(\n    num_coins = 10,\n    num_flips = 100,\n    standard_dev = 0.1\n)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "game = CoinGame(\n    num_coins = 10,\n    num_flips = 100,\n    standard_dev = 0.1\n)\nui = GameUI(game)\n# %%\ntrainer = DQNTrainer(\n    max_replay_size=10000,\n    batch_size=100,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ui",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ui = GameUI(game)\n# %%\ntrainer = DQNTrainer(\n    max_replay_size=10000,\n    batch_size=100,\n    gamma=0.99,\n    start_epsilon = 0.9,\n    end_epsilon = 0.05,\n    tau = 0.01,\n    num_episodes=100,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer = DQNTrainer(\n    max_replay_size=10000,\n    batch_size=100,\n    gamma=0.99,\n    start_epsilon = 0.9,\n    end_epsilon = 0.05,\n    tau = 0.01,\n    num_episodes=100,\n    optimizer=Adam(agent.parameters(), lr=1e-2),\n    agent=agent,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ui",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ui = GameUI(game)\n# %%\nagent.train()\ntrainer.run_train_loop()\ntrainer.show_loss(roll_window = 10)\ntrainer.show_value(roll_window = 10)\ntorch.save(agent.state_dict(), \"model_parameters/trained_agent.pt\")\n# %%\nagent.eval()\nui.run(model = agent)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_loss(roll_window",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer.show_loss(roll_window = 10)\ntrainer.show_value(roll_window = 10)\ntorch.save(agent.state_dict(), \"model_parameters/trained_agent.pt\")\n# %%\nagent.eval()\nui.run(model = agent)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_value(roll_window",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer.show_value(roll_window = 10)\ntorch.save(agent.state_dict(), \"model_parameters/trained_agent.pt\")\n# %%\nagent.eval()\nui.run(model = agent)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ui.run(model",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ui.run(model = agent)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_loss(roll_window",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_value(roll_window",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_loss(roll_window",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "trainer.show_value(roll_window",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "trainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
+        "detail": "main",
+        "documentation": {}
+    }
+]
