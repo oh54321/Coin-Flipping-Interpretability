@@ -22,7 +22,7 @@ class CoinState:
     
     def to_tensor(
         self,
-        device = "cuda"
+        device = "cpu"
     ) -> torch.Tensor:
         counts = [heads+tails for heads, tails in zip(self.num_heads, self.num_tails)]
         head_fractions = [heads/(heads+tails) if heads+tails > 0 else 0.5 for heads, tails in zip(self.num_heads, self.num_tails)]

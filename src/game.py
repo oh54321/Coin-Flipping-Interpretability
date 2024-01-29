@@ -36,5 +36,5 @@ class CoinGame:
     def reset(
         self
     ) -> None:
-        self.weights = 0.5*np.ones(self.num_coins)+np.random.randn(self.num_coins)*self.standard_dev
+        self.weights = np.clip(0.5*np.ones(self.num_coins)+np.random.randn(self.num_coins)*self.standard_dev, 0, 1)
         self.curr_state = CoinState([0]*self.num_coins, [0]*self.num_coins, self.num_flips)

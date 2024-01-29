@@ -15,23 +15,27 @@ class GameUI:
     
     def run(
         self,
-        model:Optional[nn.Module] = None
+        model:Optional[nn.Module] = None,
+        verbose:bool = True
     ) -> None:
         self.reset()
         done = False
         while not done:
-            self.print_state()
-            time.sleep(0.5)
+            if verbose: 
+                self.print_state()
+                time.sleep(0.5)
             action = self._get_action(model)
             if action == "q":
                 print("Game Terminated")
                 return
             next_state, _, done = self.game.step(action)
-            if next_state.num_heads[action]-self.game.curr_state.num_heads[action] == 1:
+            if next_state.num_heads[action]-self.game.curr_state.num_heads[action] == 1 and verbose:
                 print("Heads!")
-            else:
+            elif verbose:
                 print("Tails!")
-        self._display_done()
+        if verbose: 
+            self.print_state()
+            self._display_done()
     
     def _get_action(
         self,
@@ -40,7 +44,7 @@ class GameUI:
         if model is None:
             return self._get_input()
         curr_state = self.game.curr_state
-        return model.get_action(curr_state.to_tensor())
+        return model.get_action(curr_state.to_tensor(model.device))
     
     def to_dataframe(
         self
@@ -95,3 +99,14 @@ class GameUI:
             print("ERROR: there are not that many coins.")
             return False
         return True
+    
+    def score(
+        self,
+        model,
+        num_games:int = 10
+    ):
+        values = []
+        for _ in range(num_games):
+            self.run(model, verbose=False)
+            values.append(sum(self.game.curr_state.num_heads))
+        print(f"Average of {sum(values)/num_games} heads across {num_games} games")

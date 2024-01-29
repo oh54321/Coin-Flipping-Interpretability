@@ -1,69 +1,5 @@
 [
     {
-        "label": "Iterator",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
@@ -129,6 +65,39 @@
         "documentation": {}
     },
     {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
         "label": "torch.nn.functional",
         "kind": 6,
         "isExtraImport": true,
@@ -138,11 +107,147 @@
         "documentation": {}
     },
     {
-        "label": "Parameter",
-        "importPath": "torch.nn.parameter",
-        "description": "torch.nn.parameter",
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "torch.nn.parameter",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
         "documentation": {}
     },
     {
@@ -155,6 +260,57 @@
         "documentation": {}
     },
     {
+        "label": "deepcopy",
+        "importPath": "copy",
+        "description": "copy",
+        "isExtraImport": true,
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "networkx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "networkx",
+        "description": "networkx",
+        "detail": "networkx",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -164,11 +320,19 @@
         "documentation": {}
     },
     {
-        "label": "CoinState",
-        "importPath": "src.state",
-        "description": "src.state",
+        "label": "Parameter",
+        "importPath": "torch.nn.parameter",
+        "description": "torch.nn.parameter",
         "isExtraImport": true,
-        "detail": "src.state",
+        "detail": "torch.nn.parameter",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitNode",
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "isExtraImport": true,
+        "detail": "src.interp.circuit",
         "documentation": {}
     },
     {
@@ -188,11 +352,11 @@
         "documentation": {}
     },
     {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
+        "label": "CoinState",
+        "importPath": "src.state",
+        "description": "src.state",
         "isExtraImport": true,
-        "detail": "collections",
+        "detail": "src.state",
         "documentation": {}
     },
     {
@@ -205,40 +369,7 @@
         "documentation": {}
     },
     {
-        "label": "torch.nn",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torch.nn",
-        "description": "torch.nn",
-        "detail": "torch.nn",
-        "documentation": {}
-    },
-    {
-        "label": "functional",
-        "importPath": "torch.nn",
-        "description": "torch.nn",
-        "isExtraImport": true,
-        "detail": "torch.nn",
-        "documentation": {}
-    },
-    {
-        "label": "functional",
-        "importPath": "torch.nn",
-        "description": "torch.nn",
-        "isExtraImport": true,
-        "detail": "torch.nn",
-        "documentation": {}
-    },
-    {
         "label": "Optimizer",
-        "importPath": "torch.optim",
-        "description": "torch.optim",
-        "isExtraImport": true,
-        "detail": "torch.optim",
-        "documentation": {}
-    },
-    {
-        "label": "Adam",
         "importPath": "torch.optim",
         "description": "torch.optim",
         "isExtraImport": true,
@@ -294,14 +425,6 @@
         "documentation": {}
     },
     {
-        "label": "CoinAgent",
-        "importPath": "src.agent",
-        "description": "src.agent",
-        "isExtraImport": true,
-        "detail": "src.agent",
-        "documentation": {}
-    },
-    {
         "label": "CoinGame",
         "importPath": "src.game",
         "description": "src.game",
@@ -323,31 +446,6 @@
         "description": "src.game",
         "isExtraImport": true,
         "detail": "src.game",
-        "documentation": {}
-    },
-    {
-        "label": "CoinGame",
-        "importPath": "src.game",
-        "description": "src.game",
-        "isExtraImport": true,
-        "detail": "src.game",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm",
-        "description": "tqdm",
-        "isExtraImport": true,
-        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -369,15 +467,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "DQNTrainer",
         "importPath": "src.training",
         "description": "src.training",
@@ -394,14 +483,6 @@
         "documentation": {}
     },
     {
-        "label": "DQNTrainer",
-        "importPath": "src.training",
-        "description": "src.training",
-        "isExtraImport": true,
-        "detail": "src.training",
-        "documentation": {}
-    },
-    {
         "label": "GameUI",
         "importPath": "src.ui",
         "description": "src.ui",
@@ -410,19 +491,75 @@
         "documentation": {}
     },
     {
-        "label": "GameUI",
-        "importPath": "src.ui",
-        "description": "src.ui",
-        "isExtraImport": true,
-        "detail": "src.ui",
+        "label": "CircuitNode",
+        "kind": 6,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "class CircuitNode:\n    def __init__(\n        self,\n        input_nodes:List[\"CircuitNode\"],\n        sampler:Callable,\n        name:str = \"Unnamed Circuit Node\",\n        has_edge:Optional[List[bool]] = None,\n        device:str = \"cpu\"\n    ):\n        self.input_nodes = input_nodes",
+        "detail": "src.interp.circuit",
         "documentation": {}
     },
     {
-        "label": "GameUI",
-        "importPath": "src.ui",
-        "description": "src.ui",
-        "isExtraImport": true,
-        "detail": "src.ui",
+        "label": "InputNode",
+        "kind": 6,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "class InputNode(CircuitNode):\n    def __init__(\n        self,\n        idx:int,\n        name:str = \"Unnamed Circuit Node\",\n        device:str = \"cpu\"\n    ):\n        super().__init__([], None, name)\n        self.idx = idx\n        self.name = name",
+        "detail": "src.interp.circuit",
+        "documentation": {}
+    },
+    {
+        "label": "FeedForwardNode",
+        "kind": 6,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "class FeedForwardNode(CircuitNode):\n    def __init__(\n        self,\n        weights:torch.Tensor,\n        input_nodes:List[Union[\"CircuitNode\", InputNode]],\n        sampler:Callable,\n        name:str = \"Unnamed Circuit Node\",\n        include_active:str = True,\n        has_edge:Optional[List[bool]] = None,\n        device:str = \"cpu\"",
+        "detail": "src.interp.circuit",
+        "documentation": {}
+    },
+    {
+        "label": "OutputNode",
+        "kind": 6,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "class OutputNode(CircuitNode):\n    def forward(\n        self,\n        input:torch.Tensor\n    ):\n        if len(input.shape) == 2:\n            return torch.stack([self.forward(inp) for inp in input])\n        outputs = []\n        for idx, node in enumerate(self.input_nodes):\n            if self.has_edge[idx]:",
+        "detail": "src.interp.circuit",
+        "documentation": {}
+    },
+    {
+        "label": "acdc",
+        "kind": 2,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "def acdc(\n    circuit:CircuitNode,\n    model:torch.nn.Sequential,\n    threshold:float,\n    loss_fn:Callable,\n    num_repeat:int = 5\n) -> CircuitNode:\n    \"\"\"\n    Runs ACDC to detect a sub-circuit of a given circuit.\n    Args:",
+        "detail": "src.interp.circuit",
+        "documentation": {}
+    },
+    {
+        "label": "visualize",
+        "kind": 2,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "def visualize(\n    circuit:CircuitNode,\n    figsize = (10, 10)\n):\n    edges = set()\n    next_layer_nodes = [circuit]\n    depth = 0\n    index = 0\n    positions = {circuit.name:(0, 0)}\n    while next_layer_nodes:",
+        "detail": "src.interp.circuit",
+        "documentation": {}
+    },
+    {
+        "label": "create_circuit",
+        "kind": 2,
+        "importPath": "src.interp.circuit",
+        "description": "src.interp.circuit",
+        "peekOfCode": "def create_circuit(\n    parameters:List[torch.nn.Parameter],\n    sampler:Callable,\n    device:str = \"cpu\"\n):\n    return OutputNode(\n        input_nodes=_create_circuit_helper(\n            parameters, len(parameters), sampler, device\n        ),\n        sampler=sampler,",
+        "detail": "src.interp.circuit",
+        "documentation": {}
+    },
+    {
+        "label": "activation_lens",
+        "kind": 2,
+        "importPath": "src.interp.tools",
+        "description": "src.interp.tools",
+        "peekOfCode": "def activation_lens(\n    model:Sequential, \n    state:torch.Tensor, \n    figsize:Tuple[int]=(4, 4), \n    index = None, \n    transform = lambda x : x\n) -> None:\n    if index is not None:\n        output = model[:index+1](state)\n        _plot_out_1d(output, f\"Layer {index}\", transform = transform)",
+        "detail": "src.interp.tools",
         "documentation": {}
     },
     {
@@ -430,7 +567,16 @@
         "kind": 6,
         "importPath": "src.agent",
         "description": "src.agent",
-        "peekOfCode": "class LinearBlock(nn.Module):\n    def __init__(\n        self,\n        size_in:int,\n        size_out:int,\n        device:str = \"cuda\"\n    ) -> None:\n        super().__init__()\n        self.model = nn.Sequential(\n            nn.Linear(size_in, size_out, device = device),",
+        "peekOfCode": "class LinearBlock(nn.Module):\n    def __init__(\n        self,\n        size_in:int,\n        size_out:int,\n        batch_norm:bool = False,\n        device:str = \"cpu\"\n    ) -> None:\n        super().__init__()\n        layer = nn.Linear(size_in, size_out, device = device, bias = False)",
+        "detail": "src.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CircuitAgent",
+        "kind": 6,
+        "importPath": "src.agent",
+        "description": "src.agent",
+        "peekOfCode": "class CircuitAgent:\n    def __init__(\n        self,\n        circuit:CircuitNode\n    ):\n        self.circuit = circuit\n        self.device = \"cpu\"#circuit.device\n    def get_action(\n        self,\n        input:Tensor",
         "detail": "src.agent",
         "documentation": {}
     },
@@ -439,7 +585,7 @@
         "kind": 6,
         "importPath": "src.agent",
         "description": "src.agent",
-        "peekOfCode": "class CoinAgent(nn.Module):\n    def __init__(\n        self,\n        num_coins:int,\n        num_layers:int,\n        device:str = \"cuda\"\n    ) -> None:\n        super().__init__()\n        layers = nn.Sequential(*[LinearBlock(2*num_coins+1, 2*num_coins+1, device = device) for _ in range(num_layers)])\n        output_layer = nn.Linear(2*num_coins+1, num_coins, device = device)",
+        "peekOfCode": "class CoinAgent(nn.Module):\n    def __init__(\n        self,\n        num_coins:int,\n        num_layers:int,\n        hidden_size:Optional[int] = None,\n        device:str = \"cpu\"\n    ) -> None:\n        super().__init__()\n        if hidden_size is None:",
         "detail": "src.agent",
         "documentation": {}
     },
@@ -493,7 +639,7 @@
         "kind": 6,
         "importPath": "src.ui",
         "description": "src.ui",
-        "peekOfCode": "class GameUI:\n    def __init__(\n        self,\n        game:CoinGame\n    ) -> None:\n        self.game = game\n    def run(\n        self,\n        model:Optional[nn.Module] = None\n    ) -> None:",
+        "peekOfCode": "class GameUI:\n    def __init__(\n        self,\n        game:CoinGame\n    ) -> None:\n        self.game = game\n    def run(\n        self,\n        model:Optional[nn.Module] = None,\n        verbose:bool = True",
         "detail": "src.ui",
         "documentation": {}
     },
@@ -538,7 +684,7 @@
         "kind": 2,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "def test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    print(memory.memory)",
+        "peekOfCode": "def test_lengths():\n    trainer.reset()\n    agent.train()\n    trainer.run_train_loop()\n    agent.eval()\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -547,7 +693,7 @@
         "kind": 2,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "def test_expected_qs():\n    trainer.reset()\n    next_state_batch = torch.stack([state.to_tensor() for state in states[1:]])\n    reward_tens = torch.tensor(rewards)\n    not_dones = torch.tensor([not done for done in dones])\n    preds = agent(next_state_batch)\n    expected = torch.tensor([1+0.99*max(preds[0]), 0])\n    actual = trainer._get_expected_qs(next_state_batch, reward_tens, not_dones)\n    assert max((expected-actual).abs()) < 0.001, f\"Expected q values different from expected, Expected: {expected}, Received: {actual}\"\ndef test_trainer_simple_game():",
+        "peekOfCode": "def test_expected_qs():\n    trainer.reset()\n    agent.train()\n    trainer.run_train_loop()\n    agent.eval()\n    next_state_batch = torch.stack([state.to_tensor() for state in states[1:]])\n    reward_tens = torch.tensor(rewards)\n    not_dones = torch.tensor([not done for done in dones])\n    preds = agent(next_state_batch)\n    expected = torch.tensor([1+0.99*max(preds[0]), 0])",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -556,7 +702,7 @@
         "kind": 2,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "def test_trainer_simple_game():\n    agent.train()\n    trainer.run_train_loop()\n    # trainer.run_train_loop()\n    trainer.show_loss(roll_window = 10)\n    trainer.show_value(roll_window = 10)\n    agent.eval()\n    gamma = trainer.gamma\n    std = trainer.game.standard_dev\n    state = torch.tensor([",
+        "peekOfCode": "def test_trainer_simple_game():\n    trainer.reset()\n    agent.train()\n    trainer.run_train_loop()\n    agent.eval()\n    gamma = trainer.gamma\n    std = trainer.game.standard_dev\n    state = torch.tensor([\n        [0.5, 0.5, 0, 0, 2],\n        [0, 0.5, 1, 0, 1],",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -583,7 +729,7 @@
         "kind": 5,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "trainer = DQNTrainer(\n    max_replay_size=1000,\n    batch_size=500,\n    gamma=0.99,\n    start_epsilon = 0.1,\n    end_epsilon = 0.00,\n    tau = 0.05,\n    num_episodes=1000,\n    optimizer=Adam(agent.parameters(), lr=1e-3),\n    agent=agent,",
+        "peekOfCode": "trainer = DQNTrainer(\n    max_replay_size=1000,\n    batch_size=500,\n    gamma=0.99,\n    start_epsilon = 0.1,\n    end_epsilon = 0.00,\n    tau = 0.05,\n    num_episodes=5000,\n    optimizer=Adam(agent.parameters(), lr=1e-3),\n    agent=agent,",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -592,7 +738,7 @@
         "kind": 5,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "states = [\n    CoinState([0, 0], [0, 0], 2),\n    CoinState([0, 1], [0, 0], 1),\n    CoinState([0, 1], [1, 0], 0)]\nactions = [1, 0]\nrewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):",
+        "peekOfCode": "states = [\n    CoinState([0, 0], [0, 0], 2),\n    CoinState([0, 1], [0, 0], 1),\n    CoinState([0, 1], [1, 0], 0)]\nactions = [1, 0]\nrewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    trainer.reset()\n    agent.train()",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -601,7 +747,7 @@
         "kind": 5,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "actions = [1, 0]\nrewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"",
+        "peekOfCode": "actions = [1, 0]\nrewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    trainer.reset()\n    agent.train()\n    trainer.run_train_loop()\n    agent.eval()\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -610,7 +756,7 @@
         "kind": 5,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "rewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):",
+        "peekOfCode": "rewards = [1, 0]\ndones = [False, True]\ndef test_lengths():\n    trainer.reset()\n    agent.train()\n    trainer.run_train_loop()\n    agent.eval()\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)",
         "detail": "test.test_training",
         "documentation": {}
     },
@@ -619,134 +765,8 @@
         "kind": 5,
         "importPath": "test.test_training",
         "description": "test.test_training",
-        "peekOfCode": "dones = [False, True]\ndef test_lengths():\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)\n    assert len(sample) == 3, f\"Sample length different from expected, Expected: 3, Received: {len(sample)}\"\n    assert len(memory.memory) == 2, f\"Memory length different from expected, Expected: 2, Received: {len(memory.memory)}\"\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)",
+        "peekOfCode": "dones = [False, True]\ndef test_lengths():\n    trainer.reset()\n    agent.train()\n    trainer.run_train_loop()\n    agent.eval()\n    memory = ReplayMemory(max_size=3)\n    for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):\n        memory.add(state, action, next_state, reward, done)\n    sample = memory.sample(3)",
         "detail": "test.test_training",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_value(roll_window",
-        "kind": 5,
-        "importPath": "test.test_training",
-        "description": "test.test_training",
-        "peekOfCode": "trainer.show_value(roll_window = 2000)\n# %%\nfrom src.ui import GameUI\nui = GameUI(game)\nui.run(agent)\n# %%",
-        "detail": "test.test_training",
-        "documentation": {}
-    },
-    {
-        "label": "ui",
-        "kind": 5,
-        "importPath": "test.test_training",
-        "description": "test.test_training",
-        "peekOfCode": "ui = GameUI(game)\nui.run(agent)\n# %%",
-        "detail": "test.test_training",
-        "documentation": {}
-    },
-    {
-        "label": "agent",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "agent = CoinAgent(\n    num_coins = 10, \n    num_layers = 8\n)\n# agent.load_state_dict(torch.load(\"model_parameters/trained_agent.pt\"))\ngame = CoinGame(\n    num_coins = 10,\n    num_flips = 100,\n    standard_dev = 0.1\n)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "game",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "game = CoinGame(\n    num_coins = 10,\n    num_flips = 100,\n    standard_dev = 0.1\n)\nui = GameUI(game)\n# %%\ntrainer = DQNTrainer(\n    max_replay_size=10000,\n    batch_size=100,",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "ui",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "ui = GameUI(game)\n# %%\ntrainer = DQNTrainer(\n    max_replay_size=10000,\n    batch_size=100,\n    gamma=0.99,\n    start_epsilon = 0.9,\n    end_epsilon = 0.05,\n    tau = 0.01,\n    num_episodes=100,",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer = DQNTrainer(\n    max_replay_size=10000,\n    batch_size=100,\n    gamma=0.99,\n    start_epsilon = 0.9,\n    end_epsilon = 0.05,\n    tau = 0.01,\n    num_episodes=100,\n    optimizer=Adam(agent.parameters(), lr=1e-2),\n    agent=agent,",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "ui",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "ui = GameUI(game)\n# %%\nagent.train()\ntrainer.run_train_loop()\ntrainer.show_loss(roll_window = 10)\ntrainer.show_value(roll_window = 10)\ntorch.save(agent.state_dict(), \"model_parameters/trained_agent.pt\")\n# %%\nagent.eval()\nui.run(model = agent)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_loss(roll_window",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer.show_loss(roll_window = 10)\ntrainer.show_value(roll_window = 10)\ntorch.save(agent.state_dict(), \"model_parameters/trained_agent.pt\")\n# %%\nagent.eval()\nui.run(model = agent)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_value(roll_window",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer.show_value(roll_window = 10)\ntorch.save(agent.state_dict(), \"model_parameters/trained_agent.pt\")\n# %%\nagent.eval()\nui.run(model = agent)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "ui.run(model",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "ui.run(model = agent)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_loss(roll_window",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_value(roll_window",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer.show_value(roll_window = 1)\n# %%\ntrainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_loss(roll_window",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer.show_loss(roll_window = 1000)\ntrainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "trainer.show_value(roll_window",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "trainer.show_value(roll_window = 1000)\n# %%\ntrainer.replay[0]\n# %%",
-        "detail": "main",
         "documentation": {}
     }
 ]

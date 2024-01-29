@@ -88,8 +88,8 @@ class DQNTrainer:
         optimizer:Optimizer,
         agent:CoinAgent,
         game:CoinGame,
-        loss_function:nn.Module = F.mse_loss,
-        device:str = "cuda"
+        loss_function:nn.Module = nn.MSELoss(),
+        device:str = "cpu"
     ) -> None:
         self.replay = ReplayMemory(max_replay_size)
         self.batch_size = batch_size

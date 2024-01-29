@@ -1,7 +1,3 @@
-# %%
-import os
-os.chdir("..")
-# %%
 from src.training import DQNTrainer, ReplayMemory
 from src.state import CoinState
 import torch
@@ -12,6 +8,7 @@ from src.game import CoinGame
 import numpy as np
 from torch.nn import functional as F
 from src.ui import GameUI
+torch.manual_seed(42)
 
 agent = CoinAgent(
     num_coins = 2, 
@@ -28,7 +25,7 @@ trainer = DQNTrainer(
     start_epsilon = 0.1,
     end_epsilon = 0.00,
     tau = 0.05,
-    num_episodes=1000,
+    num_episodes=5000,
     optimizer=Adam(agent.parameters(), lr=1e-3),
     agent=agent,
     game=game,
@@ -43,6 +40,10 @@ rewards = [1, 0]
 dones = [False, True]
 
 def test_lengths():
+    trainer.reset()
+    agent.train()
+    trainer.run_train_loop()
+    agent.eval()
     
     memory = ReplayMemory(max_size=3)
     for state, action, next_state, reward, done in zip(states[:-1], actions, states[1:], rewards, dones):
@@ -63,6 +64,10 @@ def test_lengths():
     
 def test_expected_qs():
     trainer.reset()
+    agent.train()
+    trainer.run_train_loop()
+    agent.eval()
+    
     next_state_batch = torch.stack([state.to_tensor() for state in states[1:]])
     reward_tens = torch.tensor(rewards)
     not_dones = torch.tensor([not done for done in dones])
@@ -73,11 +78,9 @@ def test_expected_qs():
     assert max((expected-actual).abs()) < 0.001, f"Expected q values different from expected, Expected: {expected}, Received: {actual}"
     
 def test_trainer_simple_game():
+    trainer.reset()
     agent.train()
     trainer.run_train_loop()
-    # trainer.run_train_loop()
-    trainer.show_loss(roll_window = 10)
-    trainer.show_value(roll_window = 10)
     
     agent.eval()
     gamma = trainer.gamma
@@ -99,22 +102,3 @@ def test_trainer_simple_game():
         [1/2, 1/2+2*std*std]
     ], dtype = torch.float32)
     assert (expected-actual).abs().max(dim = 1)[0].max(dim=0)[0] < 0.001, f"Expected q values different from expected, Expected: {expected}, Received: {actual}"
-
-# %%
-test_trainer_simple_game()
-# %%
-#trainer.train()
-trainer.show_loss(roll_window=1000)
-# # %%
-# [tup.state trainer.replay.memory[:5]
-# # %%
-
-# # %%
-# trainer.show_loss(roll_window=1000)
-# %%
-trainer.show_value(roll_window = 2000)
-# %%
-from src.ui import GameUI
-ui = GameUI(game)
-ui.run(agent)
-# %%
